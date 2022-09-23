@@ -1,0 +1,447 @@
+:root {
+    --black-color: #212121;
+    --white-color: #FFFFFF;
+    --gray-color-p: #757575;
+    --blue-color: #2196F3;
+    --hover-color-button: #188CE8;
+    --black-color-webstudio: #000000;
+    --command-background-color:#F5F4FA;
+    --header-footer-color: #2F303A;
+    --color-ECECEC: #ECECEC;
+    --tel-mail-60pr-color: rgba(255, 255, 255, 0.6);
+}
+
+
+*{
+    
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: var(--white-color);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    /* list-style-type: none; */
+}
+
+a{
+    text-decoration: none; 
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+/* -------------HEADER------------------ */
+
+.header {
+    /* display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 215px; */
+}
+
+.header-nav {
+    /* display: flex;
+    align-items: center; */
+}
+
+.webstudio {
+    font-family: 'Raleway', sans-serif;
+    /* display: flex;
+    display: block; */
+    line-height: 1.19;
+}
+
+.web-logo {
+    color: var(--blue-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em; 
+  
+}
+
+.studio-logo {
+    color: var(--black-color-webstudio);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em; 
+}
+
+.header-nav-list {
+    /* display: flex;
+    align-items: center; */
+    /* gap: 50px;    */
+    /* margin: 32px 0px 32px 95px; */
+}
+
+.header-nav-link {
+    color: var(--black-color);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+    
+}
+
+.header-nav-link:focus,
+.header-nav-link:hover{
+    color: var(--blue-color);
+
+}
+
+
+.header-address-list{
+    /* display: flex;
+    align-items: center;
+    gap: 50px;    */
+}
+
+.header-address-link{
+    color: var(--gray-color-p);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+    
+}
+
+.header-address-link:focus,
+.header-address-link:hover{
+    color: var(--blue-color);
+
+}
+
+/* .current{
+    color: var(--blue-color);
+} */
+
+.current{
+    color: var(--blue-color);
+}
+
+/* ----------------MAIN------------------- */
+
+.solution {
+    background-color: var(--header-footer-color);
+    text-align: center;
+}
+
+.solution-h1 {
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.button-solution {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    text-align: center;
+    /* display: block; */
+    border: none;
+    cursor: pointer;
+    /* display: flex;
+    align-items: center;*/
+}
+
+.button-solution:focus,
+.button-solution:hover{
+    background-color: var(--hover-color-button);
+}
+
+/* ------------------------------------------------ */
+
+.main-h2{
+    color: var(--black-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+
+.benefits{
+
+}
+
+.benefits-h2{
+  
+    
+}
+
+.benefits-h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.benefits-p{
+    color: var(--gray-color-p);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+}
+
+.conteiner {
+    
+}
+
+.benefits-list {
+
+}
+
+.benefits-item {
+
+}
+
+/* ------------------------------------------------ */
+
+.occupation {
+
+}
+
+.occupation-title {
+
+}
+
+.occupation-list {
+
+}
+
+.occupation-item {
+
+}
+
+
+
+/* ------------------------------------------------- */
+.command{
+    background-color: var(--command-background-color);
+
+}
+
+.command-h3 {
+    color: var(--black-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18x;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.command-p {
+    color: var(--gray-color-p);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18x; 
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+
+.command-title {
+
+}
+
+.command-list {
+
+}
+
+
+/* -----------------FOOTER-------------------------- */
+.footer{
+background-color: var(--header-footer-color);
+}
+
+.web-logo {
+
+}
+.studio-logo {
+
+}
+
+.footer-studio-logo {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.address-footer {
+
+}
+
+.address-list {
+
+}
+
+.address-navi-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+}
+
+.address-navi-link:focus,
+.address-navi-link:hover{
+    color: var(--blue-color);
+
+}
+
+
+/* -------------------PORTFOLIO-------------------- */
+
+
+
+/* ------------------HEADER-PORTFOLIO------------------ */
+
+
+
+/* -------------------MAIN-PORTFOLIO--------------------- */
+
+
+.buttons-list{
+
+}
+
+.buttons-item{
+    background-color: var(--command-background-color);
+    color: var(--black-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    border: none;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.buttons-item:focus,
+.buttons-item:hover{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+
+}
+
+.current-buttons{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
+.offer-section {
+    
+}    
+
+.offer-list {
+    
+}    
+
+.offer-h2 {
+    color: var(--black-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.offer-p {
+    color: var(--gray-color-p);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+
+}
+
+
+/* ---------------FOOTER----------------- */
+
+.footer {
+
+}
+
+.web-logo {
+
+}
+.footer-studio-logo {
+
+}
+
+.address-footer {
+
+}
+
+.address-list {
+
+}
+
+.address-navi-link {
+
+}
+
+
+
+/* --------------------------------------------------------------*/
+
+/* text-transform
+С помощью него можно менять регистр текста: можно преобразовать текст в ПРОПИСНЫЕ, 
+строчные или Капитализировать Только Первые Буквы Слов
+
+list-style-type: none; Убираем маркеры 
+
+font-style: normal; - цвет курсив 
+
+text-decoration: none; Убираем подчерк
+
+margin-left: auto;
+
+text-decoration: none; Чтобы убрать подчёркивание у ссылки,
+
+<address> дает курсив 
+
+
+
+
+
+
+
+
+
+box-sizing 
+border-box */
