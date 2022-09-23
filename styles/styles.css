@@ -343,6 +343,12 @@ background-color: var(--header-footer-color);
 /* -------------------MAIN-PORTFOLIO--------------------- */
 
 
+
+
+.buttons-section{
+
+}
+
 .buttons-list{
 
 }
@@ -375,10 +381,7 @@ background-color: var(--header-footer-color);
     background-color: var(--blue-color);
     color: var(--white-color);
 }
-
-.offer-section {
-    
-}    
+  
 
 .offer-list {
     
